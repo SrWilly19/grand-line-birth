@@ -55,17 +55,28 @@ export default function App() {
   let rutaColor = '';
   let numeroTomoLimpio = '';
 
+  // Variables dinámicas de UX
+  let etiquetaColumna1 = 'Portada Cap. (B/N)';
+  let etiquetaColumna2 = 'Portada Cap. (Color)';
+  let notaInformativa = '';
+
   if (resultado) {
     numeroTomoLimpio = resultado.tomo.replace('Tomo ', '');
     rutaTomo = `/assets/portadas/tomos/${numeroTomoLimpio}.webp`;
 
     const esTradicional = capitulosTradicionales.includes(resultado.capitulo);
     
-    const nombreBN = esTradicional ? `T${resultado.capitulo}` : resultado.capitulo;
-    rutaBN = `/assets/portadas/capitulos-bn/${nombreBN}.webp`;
-
-    const nombreColor = esTradicional ? `${resultado.capitulo} Coloreado Digital` : resultado.capitulo;
-    rutaColor = `/assets/portadas/capitulos-color/${nombreColor}.webp`;
+    if (esTradicional) {
+      etiquetaColumna1 = 'Arte Tradicional 🎨';
+      etiquetaColumna2 = 'Coloreado Digital 🖥️';
+      notaInformativa = '✨ Nota: Este capítulo especial fue dibujado originalmente a todo color por Eiichiro Oda para la Shonen Jump, por lo que no existe versión nativa en blanco y negro.';
+      
+      rutaBN = `/assets/portadas/capitulos-bn/T${resultado.capitulo}.webp`;
+      rutaColor = `/assets/portadas/capitulos-color/${resultado.capitulo} Coloreado Digital.webp`;
+    } else {
+      rutaBN = `/assets/portadas/capitulos-bn/${resultado.capitulo}.webp`;
+      rutaColor = `/assets/portadas/capitulos-color/${resultado.capitulo}.webp`;
+    }
   }
 
   return (
@@ -137,36 +148,51 @@ export default function App() {
               </p>
             </div>
 
-            {/* Malla de Portadas Interactiva con cursor pointer y efecto hover */}
+            {/* 💡 AVISO DE UX CONDICIONAL: Solo aparece si hay una nota descriptiva */}
+            {notaInformativa && (
+              <div className="bg-amber-500/5 border border-amber-500/20 rounded-xl p-3.5 text-center max-w-xl mx-auto">
+                <p className="text-xs text-amber-400/90 font-medium leading-relaxed">
+                  {notaInformativa}
+                </p>
+              </div>
+            )}
+
+            {/* Malla de Portadas Interactiva */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-4">
               
-              {/* Portada B/N */}
+              {/* Columna 1 Dinámica */}
               <div className="flex flex-col items-center space-y-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Portada Cap. (B/N)</span>
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-400 text-center h-4 flex items-center justify-center">
+                  {etiquetaColumna1}
+                </span>
                 <div 
                   onClick={() => setImagenAmpliada(rutaBN)}
                   className="aspect-[3/4] w-full bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-inner flex items-center justify-center cursor-zoom-in group relative"
                 >
-                  <img src={rutaBN} alt="Portada B/N" onError={handleImageError} className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:opacity-80" />
+                  <img src={rutaBN} alt={etiquetaColumna1} onError={handleImageError} className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:opacity-80" />
                   <span className="absolute bottom-2 right-2 bg-black/75 text-white text-[10px] font-bold px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">🔍 Ampliar</span>
                 </div>
               </div>
 
-              {/* Portada Color */}
+              {/* Columna 2 Dinámica */}
               <div className="flex flex-col items-center space-y-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Portada Cap. (Color)</span>
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-400 text-center h-4 flex items-center justify-center">
+                  {etiquetaColumna2}
+                </span>
                 <div 
                   onClick={() => setImagenAmpliada(rutaColor)}
                   className="aspect-[3/4] w-full bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-inner flex items-center justify-center cursor-zoom-in group relative"
                 >
-                  <img src={rutaColor} alt="Portada Color" onError={handleImageError} className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:opacity-80" />
+                  <img src={rutaColor} alt={etiquetaColumna2} onError={handleImageError} className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:opacity-80" />
                   <span className="absolute bottom-2 right-2 bg-black/75 text-white text-[10px] font-bold px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">🔍 Ampliar</span>
                 </div>
               </div>
 
               {/* Portada del Tomo Físico */}
               <div className="flex flex-col items-center space-y-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Portada del {resultado.tomo}</span>
+                <span className="text-xs font-bold uppercase tracking-wider text-slate-400 text-center h-4 flex items-center justify-center">
+                  Portada del {resultado.tomo}
+                </span>
                 <div 
                   onClick={() => setImagenAmpliada(rutaTomo)}
                   className="aspect-[3/4] w-full bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-inner flex items-center justify-center cursor-zoom-in group relative"
@@ -200,11 +226,11 @@ export default function App() {
         )}
       </main>
 
-      {/* 🖼️ MODAL DE ZOOM FLOTANTE (Se activa al hacer clic en una imagen) */}
+      {/* MODAL DE ZOOM FLOTANTE */}
       {imagenAmpliada && (
         <div 
           onClick={() => setImagenAmpliada(null)} 
-          className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm flex items-center justify-center p-4 cursor-zoom-out animate-fade-in"
+          className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm flex items-center justify-center p-4 cursor-zoom-out"
         >
           <div className="relative max-w-md w-full max-h-[85vh] flex items-center justify-center">
             <button 
