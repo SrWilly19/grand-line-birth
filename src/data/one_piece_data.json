@@ -3,6 +3,8 @@
     "tomo": "Tomo 1",
     "capitulo": 1,
     "fecha_lanzamiento": "1997-07-19",
+    "titulo_japones": "ROMANCE DAWN - 冒険の夜明け",
+    "titulo_romanizado": "Romansu Dōn - Bōken no Yoake",
     "titulo_espanol": "ROMANCE DAWN - El amanecer de una aventura",
     "arco": "Romance Dawn"
   },
@@ -10,6 +12,8 @@
     "tomo": "Tomo 1",
     "capitulo": 2,
     "fecha_lanzamiento": "1997-07-28",
+    "titulo_japones": "その男\"\"麦わらのルフィ\"\"",
+    "titulo_romanizado": "Sono Otoko «Mugiwara no Rufi»",
     "titulo_espanol": "Ese chico es, «Luffy Sombrero de Paja»",
     "arco": "Romance Dawn"
   },
@@ -17,6 +21,8 @@
     "tomo": "Tomo 1",
     "capitulo": 3,
     "fecha_lanzamiento": "1997-08-04",
+    "titulo_japones": "”海賊狩りのゾロ\"\" 登場",
+    "titulo_romanizado": "«Kaizoku-gari no Zoro» Tōjō",
     "titulo_espanol": "Aparece «el Cazador de Piratas Zoro»",
     "arco": "Romance Dawn"
   },
@@ -24,6 +30,8 @@
     "tomo": "Tomo 1",
     "capitulo": 4,
     "fecha_lanzamiento": "1997-08-11",
+    "titulo_japones": "海軍大佐 ”斧手のモーガン”",
+    "titulo_romanizado": "Kaigun Taisa «Onote no Mōgan»",
     "titulo_espanol": "Capitán de la Marina «Mano de Hacha Morgan»",
     "arco": "Romance Dawn"
   },
@@ -31,6 +39,8 @@
     "tomo": "Tomo 1",
     "capitulo": 5,
     "fecha_lanzamiento": "1997-08-25",
+    "titulo_japones": "海賊王と大剣豪",
+    "titulo_romanizado": "Kaizoku-Ō to Daikengō",
     "titulo_espanol": "El Rey de los Piratas y el Maestro Espadachín",
     "arco": "Romance Dawn"
   },
@@ -38,6 +48,8 @@
     "tomo": "Tomo 1",
     "capitulo": 6,
     "fecha_lanzamiento": "1997-09-01",
+    "titulo_japones": "一人目",
+    "titulo_romanizado": "Hitori-me",
     "titulo_espanol": "La primera persona",
     "arco": "Romance Dawn"
   },
@@ -45,6 +57,8 @@
     "tomo": "Tomo 1",
     "capitulo": 7,
     "fecha_lanzamiento": "1997-09-08",
+    "titulo_japones": "友達",
+    "titulo_romanizado": "Tomodachi",
     "titulo_espanol": "Amigos",
     "arco": "Romance Dawn"
   },
@@ -52,6 +66,8 @@
     "tomo": "Tomo 1",
     "capitulo": 8,
     "fecha_lanzamiento": "1997-09-15",
+    "titulo_japones": "ナミ登場",
+    "titulo_romanizado": "Nami Tōjō",
     "titulo_espanol": "Introduciendo a Nami",
     "arco": "Romance Dawn"
   },
@@ -59,6 +75,8 @@
     "tomo": "Tomo 2",
     "capitulo": 9,
     "fecha_lanzamiento": "1997-09-22",
+    "titulo_japones": "魔性の女",
+    "titulo_romanizado": "Mashō no Onna",
     "titulo_espanol": "La chica demonio",
     "arco": "Ciudad Orange"
   },
@@ -66,6 +84,8 @@
     "tomo": "Tomo 2",
     "capitulo": 10,
     "fecha_lanzamiento": "1997-09-29",
+    "titulo_japones": "酒場の一件",
+    "titulo_romanizado": "Sakaba no Ikken",
     "titulo_espanol": "El incidente en el bar",
     "arco": "Ciudad Orange"
   },
@@ -73,6 +93,8 @@
     "tomo": "Tomo 2",
     "capitulo": 11,
     "fecha_lanzamiento": "1997-10-06",
+    "titulo_japones": "敗走",
+    "titulo_romanizado": "Haisō",
     "titulo_espanol": "La huida",
     "arco": "Ciudad Orange"
   },
@@ -80,6 +102,8 @@
     "tomo": "Tomo 2",
     "capitulo": 12,
     "fecha_lanzamiento": "1997-10-13",
+    "titulo_japones": "犬",
+    "titulo_romanizado": "Inu",
     "titulo_espanol": "Perro",
     "arco": "Ciudad Orange"
   },
@@ -87,497 +111,801 @@
     "tomo": "Tomo 2",
     "capitulo": 13,
     "fecha_lanzamiento": "1997-10-20",
-    "titulo_espanol": "Chousu",
+    "titulo_japones": "宝物",
+    "titulo_romanizado": "Takaramono",
+    "titulo_espanol": "Tesoro",
     "arco": "Ciudad Orange"
   },
   {
     "tomo": "Tomo 2",
     "capitulo": 14,
     "fecha_lanzamiento": "1997-10-27",
-    "titulo_espanol": "¡¡Caja fuerte!!",
+    "titulo_japones": "無謀っ!!",
+    "titulo_romanizado": "Mubō!!",
+    "titulo_espanol": "¡¡Imprudente!!",
     "arco": "Ciudad Orange"
   },
   {
     "tomo": "Tomo 2",
     "capitulo": 15,
-    "fecha_lanzamiento": "1997-11-03",
-    "titulo_espanol": "¡¡Hacia la victoria!!",
+    "fecha_lanzamiento": "1997-11-01",
+    "titulo_japones": "GONG",
+    "titulo_romanizado": "Gongu",
+    "titulo_espanol": "Gong",
     "arco": "Ciudad Orange"
   },
   {
     "tomo": "Tomo 2",
     "capitulo": 16,
     "fecha_lanzamiento": "1997-11-10",
-    "titulo_espanol": "Versus la tripulación de Buggy",
+    "titulo_japones": "VERSUS!!バギー海賊団",
+    "titulo_romanizado": "Bāsasu!! Bagī Kaizokudan",
+    "titulo_espanol": "¡¡Versus!! Los piratas de Buggy",
     "arco": "Ciudad Orange"
   },
   {
     "tomo": "Tomo 2",
     "capitulo": 17,
     "fecha_lanzamiento": "1997-11-17",
-    "titulo_espanol": "Nivel",
+    "titulo_japones": "格",
+    "titulo_romanizado": "Kaku",
+    "titulo_espanol": "Carácter",
     "arco": "Ciudad Orange"
   },
   {
     "tomo": "Tomo 3",
     "capitulo": 18,
-    "fecha_lanzamiento": "1997-11-24",
+    "fecha_lanzamiento": "1997-11-22",
+    "titulo_japones": "海賊”道化のバギー”",
+    "titulo_romanizado": "Kaizoku \"\"Dōke no Bagī\"\"",
     "titulo_espanol": "El pirata «Buggy el Payaso»",
-    "arco": "Villa Syrup"
+    "arco": "Ciudad Orange"
   },
   {
     "tomo": "Tomo 3",
     "capitulo": 19,
     "fecha_lanzamiento": "1997-12-01",
-    "titulo_espanol": "Fruta del Diablo",
-    "arco": "Villa Syrup"
+    "titulo_japones": "悪魔の実",
+    "titulo_romanizado": "Akuma no Mi",
+    "titulo_espanol": "Fruta del diablo",
+    "arco": "Ciudad Orange"
   },
   {
     "tomo": "Tomo 3",
     "capitulo": 20,
     "fecha_lanzamiento": "1997-12-08",
-    "titulo_espanol": "El camino de la ladrona",
-    "arco": "Villa Syrup"
+    "titulo_japones": "泥棒道",
+    "titulo_romanizado": "Dorobōdō",
+    "titulo_espanol": "El camino del ladrón",
+    "arco": "Ciudad Orange"
   },
   {
     "tomo": "Tomo 3",
     "capitulo": 21,
-    "fecha_lanzamiento": "1997-12-15",
-    "titulo_espanol": "En el pueblo",
-    "arco": "Villa Syrup"
+    "fecha_lanzamiento": "1997-12-22",
+    "titulo_japones": "町",
+    "titulo_romanizado": "Machi",
+    "titulo_espanol": "Ciudad",
+    "arco": "Ciudad Orange"
   },
   {
     "tomo": "Tomo 3",
     "capitulo": 22,
-    "fecha_lanzamiento": "1997-12-22",
-    "titulo_espanol": "Eres un bicho raro",
+    "fecha_lanzamiento": "1998-01-05",
+    "titulo_japones": "あんたが珍獣",
+    "titulo_romanizado": "Anta ga Chinjū",
+    "titulo_espanol": "Tú eres él bicho raro",
     "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 3",
     "capitulo": 23,
-    "fecha_lanzamiento": "1998-01-05",
-    "titulo_espanol": "Aparece el Capitán Usopp",
+    "fecha_lanzamiento": "1998-01-12",
+    "titulo_japones": "キャプテン･ウソップ登場",
+    "titulo_romanizado": "Kyaputen Usoppu Tōjō",
+    "titulo_espanol": "Aparece el capitán Usopp",
     "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 3",
     "capitulo": 24,
-    "fecha_lanzamiento": "1998-01-12",
-    "titulo_espanol": "Falso orgullo",
+    "fecha_lanzamiento": "1998-01-19",
+    "titulo_japones": "偽れぬもの",
+    "titulo_romanizado": "Itsuwarenu mono",
+    "titulo_espanol": "Aquello de lo que no se puede mentir",
     "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 3",
     "capitulo": 25,
-    "fecha_lanzamiento": "1998-01-19",
-    "titulo_espanol": "Mentiras",
+    "fecha_lanzamiento": "1998-01-26",
+    "titulo_japones": "ウソ800",
+    "titulo_romanizado": "Uso 800",
+    "titulo_espanol": "800 mentiras",
     "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 3",
     "capitulo": 26,
-    "fecha_lanzamiento": "1998-01-26",
-    "titulo_espanol": "El plan del Capitán Kuro",
+    "fecha_lanzamiento": "1998-02-02",
+    "titulo_japones": "キャプテン･クロの一計",
+    "titulo_romanizado": "Kyaputen Kuro no Ikkei",
+    "titulo_espanol": "El plan del capitán Kuro",
     "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 4",
     "capitulo": 27,
-    "fecha_lanzamiento": "1998-02-02",
+    "fecha_lanzamiento": "1998-02-09",
+    "titulo_japones": "筋",
+    "titulo_romanizado": "Suji",
     "titulo_espanol": "Plan",
-    "arco": "Baratie"
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 4",
     "capitulo": 28,
-    "fecha_lanzamiento": "1998-02-09",
-    "titulo_espanol": "Luna creciente",
-    "arco": "Baratie"
+    "fecha_lanzamiento": "1998-02-16",
+    "titulo_japones": "三日月",
+    "titulo_romanizado": "Mikazuki",
+    "titulo_espanol": "Luna nueva",
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 4",
     "capitulo": 29,
-    "fecha_lanzamiento": "1998-02-16",
-    "titulo_espanol": "Cuesta abajo",
-    "arco": "Baratie"
+    "fecha_lanzamiento": "1998-02-23",
+    "titulo_japones": "坂道",
+    "titulo_romanizado": "Sakamichi",
+    "titulo_espanol": "La Cuesta",
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 4",
     "capitulo": 30,
-    "fecha_lanzamiento": "1998-02-23",
-    "titulo_espanol": "¡¡Gran alboroto!!",
-    "arco": "Baratie"
+    "fecha_lanzamiento": "1998-03-02",
+    "titulo_japones": "GREAT!!!",
+    "titulo_romanizado": "Gureito!!!",
+    "titulo_espanol": "¡¡¡Great!!!",
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 4",
     "capitulo": 31,
-    "fecha_lanzamiento": "1998-03-02",
-    "titulo_espanol": "Verdad",
-    "arco": "Baratie"
+    "fecha_lanzamiento": "1998-03-09",
+    "titulo_japones": "真実",
+    "titulo_romanizado": "Shinjitsu",
+    "titulo_espanol": "La verdad",
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 4",
     "capitulo": 32,
-    "fecha_lanzamiento": "1998-03-09",
-    "titulo_espanol": "Mala suerte",
-    "arco": "Baratie"
+    "fecha_lanzamiento": "1998-03-16",
+    "titulo_japones": "大凶",
+    "titulo_romanizado": "Daikyō",
+    "titulo_espanol": "Desastre",
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 4",
     "capitulo": 33,
-    "fecha_lanzamiento": "1998-03-16",
-    "titulo_espanol": "¡¡Silencioso!!",
-    "arco": "Baratie"
+    "fecha_lanzamiento": "1998-03-23",
+    "titulo_japones": "音無き男",
+    "titulo_romanizado": "Otonaki Otoko",
+    "titulo_espanol": "El hombre silencioso",
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 4",
     "capitulo": 34,
-    "fecha_lanzamiento": "1998-03-23",
-    "titulo_espanol": "Klahadore el mayordomo",
-    "arco": "Baratie"
+    "fecha_lanzamiento": "1998-03-30",
+    "titulo_japones": "執事クラハドール",
+    "titulo_romanizado": "Shitsuji Kurahadōru",
+    "titulo_espanol": "Kurahadol el mayordomo",
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 4",
     "capitulo": 35,
-    "fecha_lanzamiento": "1998-03-30",
-    "titulo_espanol": "¡¡Cuesta arriba de nuevo!!",
-    "arco": "Baratie"
+    "fecha_lanzamiento": "1998-04-06",
+    "titulo_japones": "ネオ坂道",
+    "titulo_romanizado": "Neo Sakamichi",
+    "titulo_espanol": "Nueva cuesta",
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 5",
     "capitulo": 36,
-    "fecha_lanzamiento": "1998-04-06",
-    "titulo_espanol": "¡¡Persíguelo!!",
-    "arco": "Arlong Park"
+    "fecha_lanzamiento": "1998-04-13",
+    "titulo_japones": "追え!!",
+    "titulo_romanizado": "Oe!!",
+    "titulo_espanol": "¡¡Seguidles!!",
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 5",
     "capitulo": 37,
-    "fecha_lanzamiento": "1998-04-13",
-    "titulo_espanol": "El pirata «Kuro de los Cien Planes»",
-    "arco": "Arlong Park"
+    "fecha_lanzamiento": "1998-04-20",
+    "titulo_japones": "海賊「百計のクロ」",
+    "titulo_romanizado": "Kaizoku \"\"Hyakkei no Kuro\"\"",
+    "titulo_espanol": "El pirata «Kuro de los cien planes»",
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 5",
     "capitulo": 38,
-    "fecha_lanzamiento": "1998-04-20",
+    "fecha_lanzamiento": "1998-04-27",
+    "titulo_japones": "海賊団",
+    "titulo_romanizado": "Kaizokudan",
     "titulo_espanol": "Tripulación pirata",
-    "arco": "Arlong Park"
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 5",
     "capitulo": 39,
-    "fecha_lanzamiento": "1998-04-27",
-    "titulo_espanol": "¡¿Por quién dobla la campana?!",
-    "arco": "Arlong Park"
+    "fecha_lanzamiento": "1998-05-11",
+    "titulo_japones": "誰が為に鐘は鳴る",
+    "titulo_romanizado": "Dare ga tame ni kane wa naru",
+    "titulo_espanol": "Por quien tocan las campanas",
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 5",
     "capitulo": 40,
-    "fecha_lanzamiento": "1998-05-11",
+    "fecha_lanzamiento": "1998-05-18",
+    "titulo_japones": "ウソップ海賊団",
+    "titulo_romanizado": "Usoppu Kaizoku-dan",
     "titulo_espanol": "Los Piratas de Usopp",
-    "arco": "Arlong Park"
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 5",
     "capitulo": 41,
-    "fecha_lanzamiento": "1998-05-18",
+    "fecha_lanzamiento": "1998-05-25",
+    "titulo_japones": "海へ",
+    "titulo_romanizado": "Umi-e",
     "titulo_espanol": "Al mar",
-    "arco": "Arlong Park"
+    "arco": "Villa Syrup"
   },
   {
     "tomo": "Tomo 5",
     "capitulo": 42,
-    "fecha_lanzamiento": "1998-05-25",
+    "fecha_lanzamiento": "1998-06-01",
+    "titulo_japones": "ヨサクとジョニー",
+    "titulo_romanizado": "Yosaku to Jonī",
     "titulo_espanol": "Yosaku y Johnny",
-    "arco": "Arlong Park"
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 5",
     "capitulo": 43,
-    "fecha_lanzamiento": "1998-06-01",
-    "titulo_espanol": "Presentando a Sanji",
-    "arco": "Arlong Park"
+    "fecha_lanzamiento": "1998-06-08",
+    "titulo_japones": "サンジ登場",
+    "titulo_romanizado": "Sanji Tōjō",
+    "titulo_espanol": "Aparece Sanji",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 5",
     "capitulo": 44,
-    "fecha_lanzamiento": "1998-06-08",
-    "titulo_espanol": "Los tres cocineros",
-    "arco": "Arlong Park"
+    "fecha_lanzamiento": "1998-06-15",
+    "titulo_japones": "三人のコック",
+    "titulo_romanizado": "Sannin no Kokku",
+    "titulo_espanol": "Tres cocineros",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 6",
     "capitulo": 45,
-    "fecha_lanzamiento": "1998-06-15",
+    "fecha_lanzamiento": "1998-06-22",
+    "titulo_japones": "嵐前",
+    "titulo_romanizado": "Arashi Mae",
     "titulo_espanol": "Antes de la tormenta",
-    "arco": "Loguetown"
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 6",
     "capitulo": 46,
-    "fecha_lanzamiento": "1998-06-22",
-    "titulo_espanol": "Un cliente no deseado",
-    "arco": "Loguetown"
+    "fecha_lanzamiento": "1998-06-29",
+    "titulo_japones": "招かれざる客",
+    "titulo_romanizado": "Manekarezaru Kyaku",
+    "titulo_espanol": "Un cliente inesperado",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 6",
     "capitulo": 47,
-    "fecha_lanzamiento": "1998-06-29",
-    "titulo_espanol": "La oferta del Almirante Pirata Don Krieg",
-    "arco": "Loguetown"
+    "fecha_lanzamiento": "1998-07-06",
+    "titulo_japones": "海賊艦隊提督 首領・クリーク",
+    "titulo_romanizado": "Kaizoku kantai teitoku Don Kurīku",
+    "titulo_espanol": "Almirante de la armada pirata Don Krieg",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 6",
     "capitulo": 48,
-    "fecha_lanzamiento": "1998-07-06",
-    "titulo_espanol": "Sigue ese camino",
-    "arco": "Loguetown"
+    "fecha_lanzamiento": "1998-07-13",
+    "titulo_japones": "その航路 やめときな",
+    "titulo_romanizado": "Sono kōro yametoki na",
+    "titulo_espanol": "Abandona ese camino",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 6",
     "capitulo": 49,
-    "fecha_lanzamiento": "1998-07-13",
-    "titulo_espanol": "Tormenta",
-    "arco": "Loguetown"
+    "fecha_lanzamiento": "1998-07-18",
+    "titulo_japones": "嵐",
+    "titulo_romanizado": "Arashi",
+    "titulo_espanol": "La tormenta",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 6",
     "capitulo": 50,
     "fecha_lanzamiento": "1998-07-27",
-    "titulo_espanol": "Caminos separados",
-    "arco": "Loguetown"
+    "titulo_japones": "己々が路",
+    "titulo_romanizado": "Onoono ga michi",
+    "titulo_espanol": "Cada uno su camino",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 6",
     "capitulo": 51,
     "fecha_lanzamiento": "1998-08-03",
-    "titulo_espanol": "Zoro cae al mar",
-    "arco": "Loguetown"
+    "titulo_japones": "ロロノア・ゾロ海に散る",
+    "titulo_romanizado": "Roronoa Zoro umi ni chiru",
+    "titulo_espanol": "Roronoa Zoro cae al mar",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 6",
     "capitulo": 52,
     "fecha_lanzamiento": "1998-08-10",
-    "titulo_espanol": "Juramento",
-    "arco": "Loguetown"
+    "titulo_japones": "誓い",
+    "titulo_romanizado": "Chikai",
+    "titulo_espanol": "El juramento",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 6",
     "capitulo": 53,
     "fecha_lanzamiento": "1998-08-24",
-    "titulo_espanol": "Sabueso número uno",
-    "arco": "Loguetown"
+    "titulo_japones": "サバガシラ１号",
+    "titulo_romanizado": "Sabagashira 1 gō",
+    "titulo_espanol": "Sabagashira #1",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 7",
     "capitulo": 54,
     "fecha_lanzamiento": "1998-08-31",
-    "titulo_espanol": "Pearl el Escudo Humano",
-    "arco": "Banda de Buggy: Aventuras tras el combate"
+    "titulo_japones": "パールさん",
+    "titulo_romanizado": "Pāru-san",
+    "titulo_espanol": "Pearl",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 7",
     "capitulo": 55,
     "fecha_lanzamiento": "1998-09-07",
+    "titulo_japones": "JUNGLE BLOOD (ジャングル  ブラッド)",
+    "titulo_romanizado": "Janguru Buraddo",
     "titulo_espanol": "Jungle Blood",
-    "arco": "Banda de Buggy: Aventuras tras el combate"
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 7",
     "capitulo": 56,
     "fecha_lanzamiento": "1998-09-14",
-    "titulo_espanol": "¡¡Me niego!!",
-    "arco": "Banda de Buggy: Aventuras tras el combate"
+    "titulo_japones": "やなこった",
+    "titulo_romanizado": "Ya na kotta",
+    "titulo_espanol": "De ninguna maldita manera",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 7",
     "capitulo": 57,
     "fecha_lanzamiento": "1998-09-21",
-    "titulo_espanol": "Si tienes un sueño",
-    "arco": "Banda de Buggy: Aventuras tras el combate"
+    "titulo_japones": "夢在るがゆえ",
+    "titulo_romanizado": "Yume aru ga yue",
+    "titulo_espanol": "La razón de los sueños",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 7",
     "capitulo": 58,
     "fecha_lanzamiento": "1998-09-28",
-    "titulo_espanol": "Viejo asqueroso",
-    "arco": "Banda de Buggy: Aventuras tras el combate"
+    "titulo_japones": "クソジジイ",
+    "titulo_romanizado": "Kusojijī",
+    "titulo_espanol": "Anciano de mierda",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 7",
     "capitulo": 59,
     "fecha_lanzamiento": "1998-10-05",
-    "titulo_espanol": "Deuda",
-    "arco": "Banda de Buggy: Aventuras tras el combate"
+    "titulo_japones": "恩",
+    "titulo_romanizado": "On",
+    "titulo_espanol": "Obligación",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 7",
     "capitulo": 60,
     "fecha_lanzamiento": "1998-10-12",
-    "titulo_espanol": "Respeto",
-    "arco": "Banda de Buggy: Aventuras tras el combate"
+    "titulo_japones": "ケジメ",
+    "titulo_romanizado": "Kejime",
+    "titulo_espanol": "Resolución",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 7",
     "capitulo": 61,
     "fecha_lanzamiento": "1998-10-19",
+    "titulo_japones": "鬼",
+    "titulo_romanizado": "Oni",
     "titulo_espanol": "Demonio",
-    "arco": "Banda de Buggy: Aventuras tras el combate"
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 7",
     "capitulo": 62,
     "fecha_lanzamiento": "1998-10-26",
+    "titulo_japones": "M・H・５",
+    "titulo_romanizado": "M・H・５",
     "titulo_espanol": "MH5",
-    "arco": "Banda de Buggy: Aventuras tras el combate"
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 8",
     "capitulo": 63,
     "fecha_lanzamiento": "1998-11-02",
-    "titulo_espanol": "No voy a morir",
-    "arco": "Reverse Mountain"
+    "titulo_japones": "死なねェよ",
+    "titulo_romanizado": "Shinanē yo",
+    "titulo_espanol": "Yo no voy a morir",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 8",
     "capitulo": 64,
     "fecha_lanzamiento": "1998-11-09",
-    "titulo_espanol": "Lanza de guerra",
-    "arco": "Reverse Mountain"
+    "titulo_japones": "大戦槍",
+    "titulo_romanizado": "Daisensō",
+    "titulo_espanol": "Gran lanza de batalla",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 8",
     "capitulo": 65,
     "fecha_lanzamiento": "1998-11-16",
-    "titulo_espanol": "Preparación",
-    "arco": "Reverse Mountain"
-  },
-  {
-    "tomo": "Tomo 8",
-    "capitulo": 64,
-    "fecha_lanzamiento": "1998-11-09",
-    "titulo_espanol": "Lanza de guerra",
-    "arco": "Reverse Mountain"
-  },
-  {
-    "tomo": "Tomo 8",
-    "capitulo": 65,
-    "fecha_lanzamiento": "1998-11-16",
-    "titulo_espanol": "Preparación",
-    "arco": "Reverse Mountain"
+    "titulo_japones": "覚悟",
+    "titulo_romanizado": "Kakugo",
+    "titulo_espanol": "Listo",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 8",
     "capitulo": 66,
     "fecha_lanzamiento": "1998-11-21",
-    "titulo_espanol": "El mar de la muerte",
-    "arco": "Reverse Mountain"
+    "titulo_japones": "噛み殺した槍",
+    "titulo_romanizado": "Kami koroshita yari",
+    "titulo_espanol": "Lanza destruida",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 8",
     "capitulo": 67,
     "fecha_lanzamiento": "1998-11-30",
-    "titulo_espanol": "Sopa",
-    "arco": "Reverse Mountain"
+    "titulo_japones": "SOUP",
+    "titulo_romanizado": "Sūpu",
+    "titulo_espanol": "Soup",
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 8",
     "capitulo": 68,
     "fecha_lanzamiento": "1998-12-07",
+    "titulo_japones": "4人目",
+    "titulo_romanizado": "Yonninme",
     "titulo_espanol": "La cuarta persona",
-    "arco": "Reverse Mountain"
+    "arco": "Baratie"
   },
   {
     "tomo": "Tomo 8",
     "capitulo": 69,
-    "fecha_lanzamiento": "1998-12-14",
+    "fecha_lanzamiento": "1998-12-19",
+    "titulo_japones": "アーロンパーク",
+    "titulo_romanizado": "Āron Pāku",
     "titulo_espanol": "Arlong Park",
-    "arco": "Reverse Mountain"
+    "arco": "Arlong Park"
   },
   {
     "tomo": "Tomo 8",
     "capitulo": 70,
-    "fecha_lanzamiento": "1998-12-21",
-    "titulo_espanol": "La gran aventura del valiente Usopp",
-    "arco": "Reverse Mountain"
+    "fecha_lanzamiento": "1999-01-04",
+    "titulo_japones": "男ウソップ大冒険",
+    "titulo_romanizado": "Otoko Usoppu daibōken",
+    "titulo_espanol": "Gran aventura de Usopp el hombre",
+    "arco": "Arlong Park"
   },
   {
     "tomo": "Tomo 8",
     "capitulo": 71,
-    "fecha_lanzamiento": "1999-01-04",
-    "titulo_espanol": "Los reyes de las murgas",
-    "arco": "Reverse Mountain"
+    "fecha_lanzamiento": "1999-01-11",
+    "titulo_japones": "万物の霊長",
+    "titulo_romanizado": "Banbutsu no reichō",
+    "titulo_espanol": "Señores de toda la creación",
+    "arco": "Arlong Park"
   },
   {
-    "tomo": "Tomo 9",
+    "tomo": "Tomo 8",
     "capitulo": 72,
     "fecha_lanzamiento": "1999-01-18",
-    "titulo_espanol": "Apropiado",
-    "arco": "Whiskey Peak"
+    "titulo_japones": "分相応",
+    "titulo_romanizado": "Bunsō'ō",
+    "titulo_espanol": "Viviendo apropiadamente",
+    "arco": "Arlong Park"
   },
   {
-    "tomo": "Tomo 9",
+    "tomo": "Tomo 8",
     "capitulo": 73,
     "fecha_lanzamiento": "1999-01-25",
-    "titulo_espanol": "El monstruo del Gran Line",
-    "arco": "Whiskey Peak"
+    "titulo_japones": "偉大なる航路から来た怪物",
+    "titulo_romanizado": "Gurando Rain kara Kita Kaibutsu",
+    "titulo_espanol": "El monstruo del Grand Line",
+    "arco": "Arlong Park"
   },
   {
-    "tomo": "Tomo 9",
+    "tomo": "Tomo 8",
     "capitulo": 74,
     "fecha_lanzamiento": "1999-02-01",
-    "titulo_espanol": "Negocio",
-    "arco": "Whiskey Peak"
+    "titulo_japones": "仕事",
+    "titulo_romanizado": "Bijinesu",
+    "titulo_espanol": "Negocios",
+    "arco": "Arlong Park"
   },
   {
-    "tomo": "Tomo 9",
+    "tomo": "Tomo 8",
     "capitulo": 75,
     "fecha_lanzamiento": "1999-02-08",
+    "titulo_japones": "海図と魚人",
+    "titulo_romanizado": "Kaizu to Gyōjin",
     "titulo_espanol": "Cartas de navegación y hombres-pez",
-    "arco": "Whiskey Peak"
+    "arco": "Arlong Park"
   },
   {
-    "tomo": "Tomo 9",
+    "tomo": "Tomo 8",
     "capitulo": 76,
     "fecha_lanzamiento": "1999-02-15",
+    "titulo_japones": "ねる",
+    "titulo_romanizado": "Neru",
     "titulo_espanol": "Dormir",
-    "arco": "Whiskey Peak"
+    "arco": "Arlong Park"
   },
   {
-    "tomo": "Tomo 9",
+    "tomo": "Tomo 8",
     "capitulo": 77,
     "fecha_lanzamiento": "1999-02-22",
-    "titulo_espanol": "Un paso hacia el sueño",
-    "arco": "Whiskey Peak"
+    "titulo_japones": "夢の一歩",
+    "titulo_romanizado": "Yume no Ippo",
+    "titulo_espanol": "Un paso en tu sueño",
+    "arco": "Arlong Park"
   },
   {
-    "tomo": "Tomo 9",
+    "tomo": "Tomo 8",
     "capitulo": 78,
     "fecha_lanzamiento": "1999-03-01",
-    "titulo_espanol": "Bell-mere",
-    "arco": "Whiskey Peak"
+    "titulo_japones": "ベルメールさん",
+    "titulo_romanizado": "Berumēru-san",
+    "titulo_espanol": "Bell-mère-san",
+    "arco": "Arlong Park"
   },
   {
-    "tomo": "Tomo 9",
+    "tomo": "Tomo 8",
     "capitulo": 79,
     "fecha_lanzamiento": "1999-03-08",
+    "titulo_japones": "生きる",
+    "titulo_romanizado": "Ikiru",
     "titulo_espanol": "Vivir",
-    "arco": "Whiskey Peak"
+    "arco": "Arlong Park"
   },
   {
-    "tomo": "Tomo 9",
+    "tomo": "Tomo 8",
     "capitulo": 80,
     "fecha_lanzamiento": "1999-03-15",
+    "titulo_japones": "罪は罪",
+    "titulo_romanizado": "Tsumi wa tsumi",
     "titulo_espanol": "Un crimen es un crimen",
-    "arco": "Whiskey Peak"
+    "arco": "Arlong Park"
   },
   {
-    "tomo": "Tomo 9",
+    "tomo": "Tomo 8",
     "capitulo": 81,
-    "fecha_lanzamiento": "1999-03-22",
+    "fecha_lanzamiento": "1999-03-20",
+    "titulo_japones": "涙",
+    "titulo_romanizado": "Namida",
     "titulo_espanol": "Lágrimas",
-    "arco": "Whiskey Peak"
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 82,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 83,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 84,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 85,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 86,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 87,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 88,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 89,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 90,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 91,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 92,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 93,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 94,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 95,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 96,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 97,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 98,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 99,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 100,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 101,
+    "fecha_lanzamiento": "nan",
+    "titulo_japones": "",
+    "titulo_romanizado": "",
+    "titulo_espanol": "",
+    "arco": "Arlong Park"
   }
 ]
