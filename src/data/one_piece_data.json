@@ -1,0 +1,583 @@
+[
+  {
+    "tomo": "Tomo 1",
+    "capitulo": 1,
+    "fecha_lanzamiento": "1997-07-19",
+    "titulo_espanol": "ROMANCE DAWN - El amanecer de una aventura",
+    "arco": "Romance Dawn"
+  },
+  {
+    "tomo": "Tomo 1",
+    "capitulo": 2,
+    "fecha_lanzamiento": "1997-07-28",
+    "titulo_espanol": "Ese chico es, «Luffy Sombrero de Paja»",
+    "arco": "Romance Dawn"
+  },
+  {
+    "tomo": "Tomo 1",
+    "capitulo": 3,
+    "fecha_lanzamiento": "1997-08-04",
+    "titulo_espanol": "Aparece «el Cazador de Piratas Zoro»",
+    "arco": "Romance Dawn"
+  },
+  {
+    "tomo": "Tomo 1",
+    "capitulo": 4,
+    "fecha_lanzamiento": "1997-08-11",
+    "titulo_espanol": "Capitán de la Marina «Mano de Hacha Morgan»",
+    "arco": "Romance Dawn"
+  },
+  {
+    "tomo": "Tomo 1",
+    "capitulo": 5,
+    "fecha_lanzamiento": "1997-08-25",
+    "titulo_espanol": "El Rey de los Piratas y el Maestro Espadachín",
+    "arco": "Romance Dawn"
+  },
+  {
+    "tomo": "Tomo 1",
+    "capitulo": 6,
+    "fecha_lanzamiento": "1997-09-01",
+    "titulo_espanol": "La primera persona",
+    "arco": "Romance Dawn"
+  },
+  {
+    "tomo": "Tomo 1",
+    "capitulo": 7,
+    "fecha_lanzamiento": "1997-09-08",
+    "titulo_espanol": "Amigos",
+    "arco": "Romance Dawn"
+  },
+  {
+    "tomo": "Tomo 1",
+    "capitulo": 8,
+    "fecha_lanzamiento": "1997-09-15",
+    "titulo_espanol": "Introduciendo a Nami",
+    "arco": "Romance Dawn"
+  },
+  {
+    "tomo": "Tomo 2",
+    "capitulo": 9,
+    "fecha_lanzamiento": "1997-09-22",
+    "titulo_espanol": "La chica demonio",
+    "arco": "Ciudad Orange"
+  },
+  {
+    "tomo": "Tomo 2",
+    "capitulo": 10,
+    "fecha_lanzamiento": "1997-09-29",
+    "titulo_espanol": "El incidente en el bar",
+    "arco": "Ciudad Orange"
+  },
+  {
+    "tomo": "Tomo 2",
+    "capitulo": 11,
+    "fecha_lanzamiento": "1997-10-06",
+    "titulo_espanol": "La huida",
+    "arco": "Ciudad Orange"
+  },
+  {
+    "tomo": "Tomo 2",
+    "capitulo": 12,
+    "fecha_lanzamiento": "1997-10-13",
+    "titulo_espanol": "Perro",
+    "arco": "Ciudad Orange"
+  },
+  {
+    "tomo": "Tomo 2",
+    "capitulo": 13,
+    "fecha_lanzamiento": "1997-10-20",
+    "titulo_espanol": "Chousu",
+    "arco": "Ciudad Orange"
+  },
+  {
+    "tomo": "Tomo 2",
+    "capitulo": 14,
+    "fecha_lanzamiento": "1997-10-27",
+    "titulo_espanol": "¡¡Caja fuerte!!",
+    "arco": "Ciudad Orange"
+  },
+  {
+    "tomo": "Tomo 2",
+    "capitulo": 15,
+    "fecha_lanzamiento": "1997-11-03",
+    "titulo_espanol": "¡¡Hacia la victoria!!",
+    "arco": "Ciudad Orange"
+  },
+  {
+    "tomo": "Tomo 2",
+    "capitulo": 16,
+    "fecha_lanzamiento": "1997-11-10",
+    "titulo_espanol": "Versus la tripulación de Buggy",
+    "arco": "Ciudad Orange"
+  },
+  {
+    "tomo": "Tomo 2",
+    "capitulo": 17,
+    "fecha_lanzamiento": "1997-11-17",
+    "titulo_espanol": "Nivel",
+    "arco": "Ciudad Orange"
+  },
+  {
+    "tomo": "Tomo 3",
+    "capitulo": 18,
+    "fecha_lanzamiento": "1997-11-24",
+    "titulo_espanol": "El pirata «Buggy el Payaso»",
+    "arco": "Villa Syrup"
+  },
+  {
+    "tomo": "Tomo 3",
+    "capitulo": 19,
+    "fecha_lanzamiento": "1997-12-01",
+    "titulo_espanol": "Fruta del Diablo",
+    "arco": "Villa Syrup"
+  },
+  {
+    "tomo": "Tomo 3",
+    "capitulo": 20,
+    "fecha_lanzamiento": "1997-12-08",
+    "titulo_espanol": "El camino de la ladrona",
+    "arco": "Villa Syrup"
+  },
+  {
+    "tomo": "Tomo 3",
+    "capitulo": 21,
+    "fecha_lanzamiento": "1997-12-15",
+    "titulo_espanol": "En el pueblo",
+    "arco": "Villa Syrup"
+  },
+  {
+    "tomo": "Tomo 3",
+    "capitulo": 22,
+    "fecha_lanzamiento": "1997-12-22",
+    "titulo_espanol": "Eres un bicho raro",
+    "arco": "Villa Syrup"
+  },
+  {
+    "tomo": "Tomo 3",
+    "capitulo": 23,
+    "fecha_lanzamiento": "1998-01-05",
+    "titulo_espanol": "Aparece el Capitán Usopp",
+    "arco": "Villa Syrup"
+  },
+  {
+    "tomo": "Tomo 3",
+    "capitulo": 24,
+    "fecha_lanzamiento": "1998-01-12",
+    "titulo_espanol": "Falso orgullo",
+    "arco": "Villa Syrup"
+  },
+  {
+    "tomo": "Tomo 3",
+    "capitulo": 25,
+    "fecha_lanzamiento": "1998-01-19",
+    "titulo_espanol": "Mentiras",
+    "arco": "Villa Syrup"
+  },
+  {
+    "tomo": "Tomo 3",
+    "capitulo": 26,
+    "fecha_lanzamiento": "1998-01-26",
+    "titulo_espanol": "El plan del Capitán Kuro",
+    "arco": "Villa Syrup"
+  },
+  {
+    "tomo": "Tomo 4",
+    "capitulo": 27,
+    "fecha_lanzamiento": "1998-02-02",
+    "titulo_espanol": "Plan",
+    "arco": "Baratie"
+  },
+  {
+    "tomo": "Tomo 4",
+    "capitulo": 28,
+    "fecha_lanzamiento": "1998-02-09",
+    "titulo_espanol": "Luna creciente",
+    "arco": "Baratie"
+  },
+  {
+    "tomo": "Tomo 4",
+    "capitulo": 29,
+    "fecha_lanzamiento": "1998-02-16",
+    "titulo_espanol": "Cuesta abajo",
+    "arco": "Baratie"
+  },
+  {
+    "tomo": "Tomo 4",
+    "capitulo": 30,
+    "fecha_lanzamiento": "1998-02-23",
+    "titulo_espanol": "¡¡Gran alboroto!!",
+    "arco": "Baratie"
+  },
+  {
+    "tomo": "Tomo 4",
+    "capitulo": 31,
+    "fecha_lanzamiento": "1998-03-02",
+    "titulo_espanol": "Verdad",
+    "arco": "Baratie"
+  },
+  {
+    "tomo": "Tomo 4",
+    "capitulo": 32,
+    "fecha_lanzamiento": "1998-03-09",
+    "titulo_espanol": "Mala suerte",
+    "arco": "Baratie"
+  },
+  {
+    "tomo": "Tomo 4",
+    "capitulo": 33,
+    "fecha_lanzamiento": "1998-03-16",
+    "titulo_espanol": "¡¡Silencioso!!",
+    "arco": "Baratie"
+  },
+  {
+    "tomo": "Tomo 4",
+    "capitulo": 34,
+    "fecha_lanzamiento": "1998-03-23",
+    "titulo_espanol": "Klahadore el mayordomo",
+    "arco": "Baratie"
+  },
+  {
+    "tomo": "Tomo 4",
+    "capitulo": 35,
+    "fecha_lanzamiento": "1998-03-30",
+    "titulo_espanol": "¡¡Cuesta arriba de nuevo!!",
+    "arco": "Baratie"
+  },
+  {
+    "tomo": "Tomo 5",
+    "capitulo": 36,
+    "fecha_lanzamiento": "1998-04-06",
+    "titulo_espanol": "¡¡Persíguelo!!",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 5",
+    "capitulo": 37,
+    "fecha_lanzamiento": "1998-04-13",
+    "titulo_espanol": "El pirata «Kuro de los Cien Planes»",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 5",
+    "capitulo": 38,
+    "fecha_lanzamiento": "1998-04-20",
+    "titulo_espanol": "Tripulación pirata",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 5",
+    "capitulo": 39,
+    "fecha_lanzamiento": "1998-04-27",
+    "titulo_espanol": "¡¿Por quién dobla la campana?!",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 5",
+    "capitulo": 40,
+    "fecha_lanzamiento": "1998-05-11",
+    "titulo_espanol": "Los Piratas de Usopp",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 5",
+    "capitulo": 41,
+    "fecha_lanzamiento": "1998-05-18",
+    "titulo_espanol": "Al mar",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 5",
+    "capitulo": 42,
+    "fecha_lanzamiento": "1998-05-25",
+    "titulo_espanol": "Yosaku y Johnny",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 5",
+    "capitulo": 43,
+    "fecha_lanzamiento": "1998-06-01",
+    "titulo_espanol": "Presentando a Sanji",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 5",
+    "capitulo": 44,
+    "fecha_lanzamiento": "1998-06-08",
+    "titulo_espanol": "Los tres cocineros",
+    "arco": "Arlong Park"
+  },
+  {
+    "tomo": "Tomo 6",
+    "capitulo": 45,
+    "fecha_lanzamiento": "1998-06-15",
+    "titulo_espanol": "Antes de la tormenta",
+    "arco": "Loguetown"
+  },
+  {
+    "tomo": "Tomo 6",
+    "capitulo": 46,
+    "fecha_lanzamiento": "1998-06-22",
+    "titulo_espanol": "Un cliente no deseado",
+    "arco": "Loguetown"
+  },
+  {
+    "tomo": "Tomo 6",
+    "capitulo": 47,
+    "fecha_lanzamiento": "1998-06-29",
+    "titulo_espanol": "La oferta del Almirante Pirata Don Krieg",
+    "arco": "Loguetown"
+  },
+  {
+    "tomo": "Tomo 6",
+    "capitulo": 48,
+    "fecha_lanzamiento": "1998-07-06",
+    "titulo_espanol": "Sigue ese camino",
+    "arco": "Loguetown"
+  },
+  {
+    "tomo": "Tomo 6",
+    "capitulo": 49,
+    "fecha_lanzamiento": "1998-07-13",
+    "titulo_espanol": "Tormenta",
+    "arco": "Loguetown"
+  },
+  {
+    "tomo": "Tomo 6",
+    "capitulo": 50,
+    "fecha_lanzamiento": "1998-07-27",
+    "titulo_espanol": "Caminos separados",
+    "arco": "Loguetown"
+  },
+  {
+    "tomo": "Tomo 6",
+    "capitulo": 51,
+    "fecha_lanzamiento": "1998-08-03",
+    "titulo_espanol": "Zoro cae al mar",
+    "arco": "Loguetown"
+  },
+  {
+    "tomo": "Tomo 6",
+    "capitulo": 52,
+    "fecha_lanzamiento": "1998-08-10",
+    "titulo_espanol": "Juramento",
+    "arco": "Loguetown"
+  },
+  {
+    "tomo": "Tomo 6",
+    "capitulo": 53,
+    "fecha_lanzamiento": "1998-08-24",
+    "titulo_espanol": "Sabueso número uno",
+    "arco": "Loguetown"
+  },
+  {
+    "tomo": "Tomo 7",
+    "capitulo": 54,
+    "fecha_lanzamiento": "1998-08-31",
+    "titulo_espanol": "Pearl el Escudo Humano",
+    "arco": "Banda de Buggy: Aventuras tras el combate"
+  },
+  {
+    "tomo": "Tomo 7",
+    "capitulo": 55,
+    "fecha_lanzamiento": "1998-09-07",
+    "titulo_espanol": "Jungle Blood",
+    "arco": "Banda de Buggy: Aventuras tras el combate"
+  },
+  {
+    "tomo": "Tomo 7",
+    "capitulo": 56,
+    "fecha_lanzamiento": "1998-09-14",
+    "titulo_espanol": "¡¡Me niego!!",
+    "arco": "Banda de Buggy: Aventuras tras el combate"
+  },
+  {
+    "tomo": "Tomo 7",
+    "capitulo": 57,
+    "fecha_lanzamiento": "1998-09-21",
+    "titulo_espanol": "Si tienes un sueño",
+    "arco": "Banda de Buggy: Aventuras tras el combate"
+  },
+  {
+    "tomo": "Tomo 7",
+    "capitulo": 58,
+    "fecha_lanzamiento": "1998-09-28",
+    "titulo_espanol": "Viejo asqueroso",
+    "arco": "Banda de Buggy: Aventuras tras el combate"
+  },
+  {
+    "tomo": "Tomo 7",
+    "capitulo": 59,
+    "fecha_lanzamiento": "1998-10-05",
+    "titulo_espanol": "Deuda",
+    "arco": "Banda de Buggy: Aventuras tras el combate"
+  },
+  {
+    "tomo": "Tomo 7",
+    "capitulo": 60,
+    "fecha_lanzamiento": "1998-10-12",
+    "titulo_espanol": "Respeto",
+    "arco": "Banda de Buggy: Aventuras tras el combate"
+  },
+  {
+    "tomo": "Tomo 7",
+    "capitulo": 61,
+    "fecha_lanzamiento": "1998-10-19",
+    "titulo_espanol": "Demonio",
+    "arco": "Banda de Buggy: Aventuras tras el combate"
+  },
+  {
+    "tomo": "Tomo 7",
+    "capitulo": 62,
+    "fecha_lanzamiento": "1998-10-26",
+    "titulo_espanol": "MH5",
+    "arco": "Banda de Buggy: Aventuras tras el combate"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 63,
+    "fecha_lanzamiento": "1998-11-02",
+    "titulo_espanol": "No voy a morir",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 64,
+    "fecha_lanzamiento": "1998-11-09",
+    "titulo_espanol": "Lanza de guerra",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 65,
+    "fecha_lanzamiento": "1998-11-16",
+    "titulo_espanol": "Preparación",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 64,
+    "fecha_lanzamiento": "1998-11-09",
+    "titulo_espanol": "Lanza de guerra",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 65,
+    "fecha_lanzamiento": "1998-11-16",
+    "titulo_espanol": "Preparación",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 66,
+    "fecha_lanzamiento": "1998-11-21",
+    "titulo_espanol": "El mar de la muerte",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 67,
+    "fecha_lanzamiento": "1998-11-30",
+    "titulo_espanol": "Sopa",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 68,
+    "fecha_lanzamiento": "1998-12-07",
+    "titulo_espanol": "La cuarta persona",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 69,
+    "fecha_lanzamiento": "1998-12-14",
+    "titulo_espanol": "Arlong Park",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 70,
+    "fecha_lanzamiento": "1998-12-21",
+    "titulo_espanol": "La gran aventura del valiente Usopp",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 8",
+    "capitulo": 71,
+    "fecha_lanzamiento": "1999-01-04",
+    "titulo_espanol": "Los reyes de las murgas",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 9",
+    "capitulo": 72,
+    "fecha_lanzamiento": "1999-01-18",
+    "titulo_espanol": "Apropiado",
+    "arco": "Whiskey Peak"
+  },
+  {
+    "tomo": "Tomo 9",
+    "capitulo": 73,
+    "fecha_lanzamiento": "1999-01-25",
+    "titulo_espanol": "El monstruo del Gran Line",
+    "arco": "Whiskey Peak"
+  },
+  {
+    "tomo": "Tomo 9",
+    "capitulo": 74,
+    "fecha_lanzamiento": "1999-02-01",
+    "titulo_espanol": "Negocio",
+    "arco": "Whiskey Peak"
+  },
+  {
+    "tomo": "Tomo 9",
+    "capitulo": 75,
+    "fecha_lanzamiento": "1999-02-08",
+    "titulo_espanol": "Cartas de navegación y hombres-pez",
+    "arco": "Whiskey Peak"
+  },
+  {
+    "tomo": "Tomo 9",
+    "capitulo": 76,
+    "fecha_lanzamiento": "1999-02-15",
+    "titulo_espanol": "Dormir",
+    "arco": "Whiskey Peak"
+  },
+  {
+    "tomo": "Tomo 9",
+    "capitulo": 77,
+    "fecha_lanzamiento": "1999-02-22",
+    "titulo_espanol": "Un paso hacia el sueño",
+    "arco": "Whiskey Peak"
+  },
+  {
+    "tomo": "Tomo 9",
+    "capitulo": 78,
+    "fecha_lanzamiento": "1999-03-01",
+    "titulo_espanol": "Bell-mere",
+    "arco": "Whiskey Peak"
+  },
+  {
+    "tomo": "Tomo 9",
+    "capitulo": 79,
+    "fecha_lanzamiento": "1999-03-08",
+    "titulo_espanol": "Vivir",
+    "arco": "Whiskey Peak"
+  },
+  {
+    "tomo": "Tomo 9",
+    "capitulo": 80,
+    "fecha_lanzamiento": "1999-03-15",
+    "titulo_espanol": "Un crimen es un crimen",
+    "arco": "Whiskey Peak"
+  },
+  {
+    "tomo": "Tomo 9",
+    "capitulo": 81,
+    "fecha_lanzamiento": "1999-03-22",
+    "titulo_espanol": "Lágrimas",
+    "arco": "Whiskey Peak"
+  }
+]
