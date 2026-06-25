@@ -907,5 +907,159 @@
   "titulo_romanizado": "Rivāsu Maunten",
   "titulo_espanol": "Reverse Mountain",
   "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 12",
+    "capitulo": 102,
+    "fecha_lanzamiento": "1999-08-30",
+    "titulo_japones": "さて、偉大なる航路",
+    "titulo_romanizado": "Sate, Gurando Rain",
+    "titulo_espanol": "Y ahora, Grand Line",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 12",
+    "capitulo": 103,
+    "fecha_lanzamiento": "1999-09-06",
+    "titulo_japones": "クジラ",
+    "titulo_romanizado": "Kujira",
+    "titulo_espanol": "Ballena",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 12",
+    "capitulo": 104,
+    "fecha_lanzamiento": "1999-09-13",
+    "titulo_japones": "約束の岬",
+    "titulo_romanizado": "Yakusoku no misaki",
+    "titulo_espanol": "Promesa en el Cabo",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 12",
+    "capitulo": 105,
+    "fecha_lanzamiento": "1999-09-20",
+    "titulo_japones": "記録指針",
+    "titulo_romanizado": "Rogu Pōsu",
+    "titulo_espanol": "Log pose",
+    "arco": "Reverse Mountain"
+  },
+  {
+    "tomo": "Tomo 12",
+    "capitulo": 106,
+    "fecha_lanzamiento": "1999-09-27",
+    "titulo_japones": "歓迎の町",
+    "titulo_romanizado": "Kangei no machi",
+    "titulo_espanol": "El pueblo de las celebraciones",
+    "arco": "Whisky Peak"
+  },
+  {
+    "tomo": "Tomo 12",
+    "capitulo": 107,
+    "fecha_lanzamiento": "1999-10-04",
+    "titulo_japones": "月光と墓標",
+    "titulo_romanizado": "Gekkō to bihyō",
+    "titulo_espanol": "Luz de luna y lápidas",
+    "arco": "Whisky Peak"
+  },
+  {
+    "tomo": "Tomo 12",
+    "capitulo": 108,
+    "fecha_lanzamiento": "1999-10-09",
+    "titulo_japones": "100人の賞金稼ぎ",
+    "titulo_romanizado": "Hyakunin no shōkin kasegi",
+    "titulo_espanol": "100 cazarrecompensas",
+    "arco": "Whisky Peak"
+  },
+  {
+    "tomo": "Tomo 13",
+    "capitulo": 109,
+    "fecha_lanzamiento": "1999-10-18",
+    "titulo_japones": "責任問題",
+    "titulo_romanizado": "Sekinin mondai",
+    "titulo_espanol": "Un problema de responsabilidad",
+    "arco": "Whisky Peak"
+  },
+  {
+    "tomo": "Tomo 13",
+    "capitulo": 110,
+    "fecha_lanzamiento": "1999-10-25",
+    "titulo_japones": "夜は終わらない",
+    "titulo_romanizado": "Yoru wa owaranai",
+    "titulo_espanol": "No termina la noche",
+    "arco": "Whisky Peak"
+  },
+  {
+    "tomo": "Tomo 13",
+    "capitulo": 111,
+    "fecha_lanzamiento": "1999-11-01",
+    "titulo_japones": "秘密犯罪会社",
+    "titulo_romanizado": "Himitsu hanzai kaisha",
+    "titulo_espanol": "Organización criminal secreta",
+    "arco": "Whisky Peak"
+  },
+  {
+    "tomo": "Tomo 13",
+    "capitulo": 112,
+    "fecha_lanzamiento": "1999-11-08",
+    "titulo_japones": "ルフィ VS ゾロ",
+    "titulo_romanizado": "Rufi VS Zoro",
+    "titulo_espanol": "Luffy vs. Zoro",
+    "arco": "Whisky Peak"
+  },
+  {
+    "tomo": "Tomo 13",
+    "capitulo": 113,
+    "fecha_lanzamiento": "1999-11-15",
+    "titulo_japones": "大丈夫!!!",
+    "titulo_romanizado": "Daijōbu!!!",
+    "titulo_espanol": "¡¡¡Está bien!!!",
+    "arco": "Whisky Peak"
+  },
+  {
+    "tomo": "Tomo 13",
+    "capitulo": 114,
+    "fecha_lanzamiento": "1999-11-22",
+    "titulo_japones": "進路",
+    "titulo_romanizado": "Shinro",
+    "titulo_espanol": "Ruta",
+    "arco": "Whisky Peak"
+  },
+  {
+  "tomo": "Tomo 13",
+  "capitulo": 115,
+  "fecha_lanzamiento": "1999-12-06",
+  "titulo_japones": "冒険のリトルガーデン",
+  "titulo_romanizado": "Bōken no Ritoru Gāden",
+  "titulo_espanol": "Aventura en Little Garden",
+  "arco": "Little Garden"
+  },
+  {
+    "tomo": "Tomo 13",
+    "capitulo": 116,
+    "fecha_lanzamiento": "1999-12-13",
+    "titulo_japones": "でっけェ",
+    "titulo_romanizado": "Dekkē",
+    "titulo_espanol": "Gigantesco",
+    "arco": "Little Garden"
+  },
+  {
+    "tomo": "Tomo 13",
+    "capitulo": 117,
+    "fecha_lanzamiento": "1999-12-20",
+    "titulo_japones": "ドリーとブロギー",
+    "titulo_romanizado": "Dorī to Burogī",
+    "titulo_espanol": "Dorry y Brogy",
+    "arco": "Little Garden"
+  },
+  {
+    "tomo": "Tomo 14",
+    "capitulo": 118,
+    "fecha_lanzamiento": "2000-01-03",
+    "titulo_japones": "誰かいる",
+    "titulo_romanizado": "Dare ka iru",
+    "titulo_espanol": "Hay alguien",
+    "arco": "Little Garden"
   }
+
 ]
