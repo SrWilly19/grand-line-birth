@@ -205,22 +205,22 @@ export default function App() {
             </div>
 
             {/* 💸 MONETIZACIÓN */}
-            <div className="bg-slate-950/60 border border-slate-800 rounded-2xl p-5 text-center max-w-md mx-auto space-y-4">
-              <div className="space-y-1">
-                <h4 className="text-sm font-bold text-slate-200">¿Quieres este Tomo en tu estantería?</h4>
-                <p className="text-xs text-slate-400 leading-relaxed">
-                  Hazte con el volumen físico oficial que incluye este capítulo directamente en Amazon.
-                </p>
+              <div className="bg-slate-950/60 border border-slate-800 rounded-2xl p-5 text-center max-w-md mx-auto space-y-4">
+                <div className="space-y-1">
+                  <h4 className="text-sm font-bold text-slate-200">¿Quieres este Tomo en tu estantería?</h4>
+                  <p className="text-xs text-slate-400 leading-relaxed">
+                    Hazte con el volumen físico oficial que incluye este capítulo directamente en Amazon.
+                  </p>
+                </div>
+                <a
+                  href={`https://www.amazon.es/s?k=one+piece+manga+tomo+${numeroTomoLimpio}&tag=grandlinebirt-21`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs py-3 px-6 rounded-xl transition-all w-full shadow-md active:scale-[0.99]"
+                >
+                  Comprar {resultado.tomo} en Amazon 📦
+                </a>
               </div>
-              <a
-                href={`https://www.amazon.es/s?k=one+piece+volumen+${numeroTomoLimpio}&tag=TU_TAG_AFILIADO`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs py-3 px-6 rounded-xl transition-all w-full shadow-md active:scale-[0.99]"
-              >
-                Comprar {resultado.tomo} en Amazon 📦
-              </a>
-            </div>
 
           </div>
         )}
