@@ -10,7 +10,7 @@ export default function App() {
   // Referencia para el scroll automático
   const resultadoRef = useRef(null);
 
-  const capitulosTradicionales = [1, 12, 25, 28, 32, 38, 41, 44, 45, 49, 52, 56, 61, 64, 69, 70, 79, 86, 94, 100];
+  const capitulosTradicionales = [1, 12, 25, 28, 32, 38, 41, 44, 45, 49, 52, 56, 61, 64, 69, 70, 79, 86, 94, 100, 103, 107, 111, 117, 128, 133, 137, 140, 144, 47, 152, 156, 160,165,175, 186, 194, 198, 201, 213, 221, 226, 241, 246, 254, 260, 269, 274, 284, 287, 293, 304, 310, 317, 327, 334, 352, 357];
 
   const buscarCapituloCercano = (e) => {
     e.preventDefault();
