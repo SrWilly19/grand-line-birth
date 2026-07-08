@@ -9,6 +9,7 @@ export default function App() {
   const [buscando, setBuscando] = useState(false);
   const [imagenAmpliada, setImagenAmpliada] = useState(null); // Estado para controlar el Zoom
   const [mostrarColumnaColor, setMostrarColumnaColor] = useState(true);
+  const [language, setLanguage] = useState('es'); // 'es' para español, 'en' para inglés
   
   // Referencia para el scroll automático
   const resultadoRef = useRef(null);
@@ -99,20 +100,32 @@ export default function App() {
       {/* Encabezado */}
       <header className="text-center mb-8 max-w-xl">
         <h1 className="text-4xl md:text-5xl font-black text-amber-500 tracking-wider uppercase">
-          Grand Line Birth 🏴‍☠️
+          {language === 'es' ? 'Grand Line Birth 🏴‍☠️' : 'Grand Line Birth 🏴‍☠️'} 
+          {/* Nota: Si el título es el mismo en ambos idiomas, puedes dejarlo tal cual, o cambiarlo por otra frase si quieres */}
         </h1>
         <p className="text-slate-400 text-sm md:text-base mt-3 font-medium">
-          Descubre qué capítulo del manga se publicó el día que naciste y consigue tu tomo oficial de forma legal.
+          {language === 'es' 
+            ? 'Descubre qué capítulo del manga se publicó el día que naciste y consigue tu tomo oficial de forma legal.' 
+            : 'Discover which manga chapter was published on the day you were born and find your official volume.'}
         </p>
       </header>
 
       {/* Tarjeta Principal */}
       <main className="w-full max-w-2xl bg-slate-900/80 border border-slate-800/80 backdrop-blur-md rounded-2xl p-6 shadow-2xl shadow-black/50">
-        
+        {/* Selector de Idioma */}
+          <div className="absolute top-4 right-4 z-50">
+            <button 
+              onClick={() => setLanguage(language === 'es' ? 'en' : 'es')}
+              className="bg-slate-800 hover:bg-slate-700 text-white font-medium px-3 py-1.5 rounded-lg text-xs border border-slate-700 transition-all shadow-md active:scale-95"
+            >
+              {language === 'es' ? '🌐 English' : '🌐 Español'}
+            </button>
+          </div>
+
         {/* Formulario de Entrada */}
         <form onSubmit={buscarCapituloCercano} className="space-y-4 max-w-md mx-auto">
-          <label className="block text-xs font-bold uppercase tracking-widest text-amber-500/80 text-center">
-            Introduce tu fecha de nacimiento
+          <label className="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">
+            {language === 'es' ? 'Introduce tu fecha de nacimiento' : 'Enter your date of birth'}
           </label>
           <div className="flex flex-col sm:flex-row gap-3">
             <input
@@ -133,9 +146,9 @@ export default function App() {
                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                   </svg>
-                  Navegando...
+                  {language === 'es' ? 'Navegando...' : 'Sailing...'}
                 </span>
-              ) : "Buscar Match"}
+              ) : (language === 'es' ? 'Buscar Match' : 'Find Match')}
             </button>
           </div>
         </form>
@@ -150,13 +163,14 @@ export default function App() {
                 {resultado.arco}
               </span>
               <h2 className="text-3xl font-black mt-4 text-white tracking-tight">
-                Capítulo {resultado.capitulo}
+               {language === 'es' ? `Capítulo ${resultado.capitulo}` : `Chapter ${resultado.capitulo}`}
               </h2>
               <p className="text-amber-500 font-bold text-lg italic mt-1">
-                "{resultado.titulo_espanol}"
+                "{language === 'es' ? resultado.titulo_espanol : (resultado.titulo_ingles || resultado.titulo_espanol)}"
               </p>
               <p className="text-slate-500 text-xs font-semibold mt-2 uppercase tracking-wide">
-                Publicado el: {new Date(resultado.fecha_lanzamiento).toLocaleDateString('es-ES', {
+                {language === 'es' ? 'Publicado el: ' : 'Published on: '}
+                {new Date(resultado.fecha_lanzamiento).toLocaleDateString(language === 'es' ? 'es-ES' : 'en-US', {
                   day: 'numeric', month: 'long', year: 'numeric'
                 })}
               </p>
@@ -216,7 +230,7 @@ export default function App() {
                 {/* Columna 3: Portada del Tomo Físico (Siempre existe) */}
                 <div className="flex flex-col items-center space-y-2">
                   <span className="text-xs font-bold uppercase tracking-wider text-slate-400 text-center h-4 flex items-center justify-center">
-                    Portada del {resultado.tomo}
+                    {language === 'es' ? `Portada del ${resultado.tomo}` : `${resultado.tomo} Cover`}
                   </span>
                   <div 
                     onClick={() => setImagenAmpliada(rutaTomo)}
@@ -232,18 +246,25 @@ export default function App() {
             {/* 💸 MONETIZACIÓN */}
               <div className="bg-slate-950/60 border border-slate-800 rounded-2xl p-5 text-center max-w-md mx-auto space-y-4">
                 <div className="space-y-1">
-                  <h4 className="text-sm font-bold text-slate-200">¿Quieres este Tomo en tu estantería?</h4>
+                  <h4 className="text-sm font-bold text-slate-200">{language === 'es' ? '¿Quieres este Tomo en tu estantería?' : 'Want this Volume on your shelf?'}</h4>
                   <p className="text-xs text-slate-400 leading-relaxed">
-                    Hazte con el volumen físico oficial que incluye este capítulo directamente en Amazon.
+                    {language === 'es' 
+                      ? 'Hazte con el volumen físico oficial que incluye este capítulo directamente en Amazon.' 
+                      : 'Get the official physical volume that includes this chapter directly on Amazon.'}
                   </p>
                 </div>
                 <a
-                  href={`https://www.amazon.es/s?k=one+piece+manga+tomo+${numeroTomoLimpio}&tag=grandlinebirt-21`}
+                  href={language === 'es' 
+                    ? `https://www.amazon.es/s?k=one+piece+manga+tomo+${numeroTomoLimpio}&tag=grandlinebirt-21`
+                    : `https://www.amazon.com/s?k=one+piece+manga+volume+${numeroTomoLimpio}`
+                  }
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs py-3 px-6 rounded-xl transition-all w-full shadow-md active:scale-[0.99]"
                 >
-                  Comprar {resultado.tomo} en Amazon 📦
+                  {language === 'es' 
+                    ? `Comprar ${resultado.tomo} en Amazon 📦` 
+                    : `Buy ${resultado.tomo} on Amazon 📦`}
                 </a>
               </div>
 
@@ -262,7 +283,7 @@ export default function App() {
               onClick={() => setImagenAmpliada(null)}
               className="absolute -top-12 right-0 text-white hover:text-amber-500 text-sm font-bold bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-800 transition-all"
             >
-              ✕ Cerrar
+              {language === 'es' ? '✕ Cerrar' : '✕ Close'}
             </button>
             <img 
               src={imagenAmpliada} 
@@ -284,7 +305,7 @@ export default function App() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-4 py-2 rounded-full text-xs tracking-wide transition-all shadow-lg hover:scale-105 active:scale-95"
             >
-              ☕ ¿Te ha gustado? ¡Invítame a un café!
+              {language === 'es' ? '☕ ¿Te ha gustado? ¡Invítame a un café!' : '☕ Liked it? Buy me a coffee!'}
             </a>
           </div>
         <div className="bg-slate-900/30 border border-dashed border-slate-800 rounded-xl p-4 min-h-[150px] flex items-center justify-center">
