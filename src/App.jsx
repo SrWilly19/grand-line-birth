@@ -275,7 +275,18 @@ export default function App() {
       )}
 
       {/* Publicidad */}
-      <footer className="mt-8 w-full max-w-2xl text-center">
+      <footer className="mt-8 w-full max-w-2xl text-center space-y-4"> 
+        {/* Botón de Cómprame un café */}
+          <div className="flex justify-center">
+            <a 
+              href="https://ko-fi.com/jeffeldependiente" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-4 py-2 rounded-full text-xs tracking-wide transition-all shadow-lg hover:scale-105 active:scale-95"
+            >
+              ☕ ¿Te ha gustado? ¡Invítame a un café!
+            </a>
+          </div>
         <div className="bg-slate-900/30 border border-dashed border-slate-800 rounded-xl p-4 min-h-[150px] flex items-center justify-center">
           <AdsterraBanner />
         </div>
