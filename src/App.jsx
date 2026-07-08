@@ -12,7 +12,7 @@ export default function App() {
   const resultadoRef = useRef(null);
 
   const capitulosTradicionales = [1, 12, 25, 28, 32, 38, 41, 44, 45, 49, 52, 56, 61, 64, 69, 70, 79, 86, 94, 100, 103, 107, 111, 117,
-    128, 133, 137, 140, 144, 47, 152, 156, 160,165,175, 186, 194, 198, 201, 213, 221, 226, 241, 246, 254, 260, 269, 274, 284, 287, 293,
+    128, 133, 137, 140, 144, 47, 152, 156, 160, 165,175, 186, 194, 198, 201, 213, 221, 226, 241, 246, 254, 260, 269, 274, 284, 287, 293,
     304, 310, 317, 327, 334, 352, 357, 364, 369, 373, 377, 379, 383, 387, 391, 394, 401, 405, 410, 415, 422, 426, 431, 439, 446, 449, 454, 
     457, 464, 471, 483, 489, 503, 507, 516, 520, 526, 532, 537, 540, 547, 553, 566, 567, 578, 582, 588, 595, 598, 604, 609, 618, 622, 628,
     634, 642, 651, 660, 664, 676, 685, 691, 692, 693, 699, 703, 707, 710, 717, 724, 726, 733, 741, 745, 750, 756, 764, 771, 775, 779, 784, 790, 
@@ -82,7 +82,7 @@ export default function App() {
       notaInformativa = '✨ Nota: Este capítulo especial fue dibujado originalmente a todo color por Eiichiro Oda para la Shonen Jump, por lo que no existe versión nativa en blanco y negro.';
       
       rutaBN = `/assets/portadas/capitulos-bn/T${resultado.capitulo}.webp`;
-      rutaColor = `/assets/portadas/capitulos-color/${resultado.capitulo} Coloreado Digital.webp`;
+      rutaColor = `/assets/portadas/capitulos-color/${resultado.capitulo} CD.webp`;
     } else {
       rutaBN = `/assets/portadas/capitulos-bn/${resultado.capitulo}.webp`;
       rutaColor = `/assets/portadas/capitulos-color/${resultado.capitulo}.webp`;
