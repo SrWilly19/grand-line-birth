@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import capitulosData from './data/one_piece_data.json'; 
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [fechaNacimiento, setFechaNacimiento] = useState('');
@@ -264,6 +265,8 @@ export default function App() {
           Espacio publicitario estratégico (Google AdSense / Ezoic)
         </div>
       </footer>
+      {/*Contador de vercel analytics*/}
+        <Analytics />
     </div>
   );
 }
