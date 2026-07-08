@@ -1,24 +1,27 @@
 import React, { useState, useRef } from 'react';
 import capitulosData from './data/one_piece_data.json'; 
 import { Analytics } from '@vercel/analytics/react';
+import AdsterraBanner from './AdsterraBanner';
 
 export default function App() {
   const [fechaNacimiento, setFechaNacimiento] = useState('');
   const [resultado, setResultado] = useState(null);
   const [buscando, setBuscando] = useState(false);
   const [imagenAmpliada, setImagenAmpliada] = useState(null); // Estado para controlar el Zoom
+  const [mostrarColumnaColor, setMostrarColumnaColor] = useState(true);
   
   // Referencia para el scroll automático
   const resultadoRef = useRef(null);
 
-  const capitulosTradicionales = [1, 12, 25, 28, 32, 38, 41, 44, 45, 49, 52, 56, 61, 64, 69, 70, 79, 86, 94, 100, 103, 107, 111, 117,
-    128, 133, 137, 140, 144, 47, 152, 156, 160, 165,175, 186, 194, 198, 201, 213, 221, 226, 241, 246, 254, 260, 269, 274, 284, 287, 293,
+  const capitulosTradicionales = [
+    1, 12, 25, 28, 32, 38, 41, 44, 45, 47, 49, 52, 56, 61, 64, 69, 70, 79, 86, 94, 100, 103, 107, 111, 117,
+    128, 133, 137, 140, 144, 152, 156, 160, 165, 175, 186, 194, 198, 201, 213, 221, 226, 241, 246, 254, 260, 269, 274, 284, 287, 293,
     304, 310, 317, 327, 334, 352, 357, 364, 369, 373, 377, 379, 383, 387, 391, 394, 401, 405, 410, 415, 422, 426, 431, 439, 446, 449, 454, 
     457, 464, 471, 483, 489, 503, 507, 516, 520, 526, 532, 537, 540, 547, 553, 566, 567, 578, 582, 588, 595, 598, 604, 609, 618, 622, 628,
     634, 642, 651, 660, 664, 676, 685, 691, 692, 693, 699, 703, 707, 710, 717, 724, 726, 733, 741, 745, 750, 756, 764, 771, 775, 779, 784, 790, 
     796, 802, 809, 811, 817, 821, 824, 829, 832, 833, 835, 843, 848, 851, 858, 863, 872, 874, 878, 886, 890, 900, 902, 911, 912, 916, 921, 929,
     937, 941, 945, 949, 951, 957, 967, 972, 976, 981, 985, 987, 992, 999, 1000, 1006, 1009, 1011, 1019, 1028, 1031, 1036, 1039, 1045, 1047, 1053,
-    1053, 1055, 1060, 1065, 1071, 1076, 1081, 1084, 1086, 1088, 1091, 1094, 1101, 1103, 1108, 1111, 1113, 1121, 1128, 1134, 1143, 1149, 1155, 1156,
+    1055, 1060, 1065, 1071, 1076, 1081, 1084, 1086, 1088, 1091, 1094, 1101, 1103, 1108, 1111, 1113, 1121, 1128, 1134, 1143, 1149, 1155, 1156,
     1161, 1166, 1169, 1176, 1183
   ];
 
@@ -45,6 +48,7 @@ export default function App() {
       });
 
       setResultado(capituloMasCercano);
+      setMostrarColumnaColor(true);
       setBuscando(false);
       
       // Scroll suave hacia los resultados
@@ -167,52 +171,63 @@ export default function App() {
               </div>
             )}
 
-            {/* Malla de Portadas Interactiva */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-4">
-              
-              {/* Columna 1 Dinámica */}
-              <div className="flex flex-col items-center space-y-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400 text-center h-4 flex items-center justify-center">
-                  {etiquetaColumna1}
-                </span>
-                <div 
-                  onClick={() => setImagenAmpliada(rutaBN)}
-                  className="aspect-[3/4] w-full bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-inner flex items-center justify-center cursor-zoom-in group relative"
-                >
-                  <img src={rutaBN} alt={etiquetaColumna1} onError={handleImageError} className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:opacity-80" />
-                  <span className="absolute bottom-2 right-2 bg-black/75 text-white text-[10px] font-bold px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">🔍 Ampliar</span>
+            {/* Malla de Portadas Interactiva (Detecta si hay 2 o 3 imágenes disponibles) */}
+              <div className={`grid grid-cols-1 ${mostrarColumnaColor ? 'sm:grid-cols-3' : 'sm:grid-cols-2'} gap-6 pt-4`}>
+                
+                {/* Columna 1: Portada Tradicional / B&W (Siempre existe) */}
+                <div className="flex flex-col items-center space-y-2">
+                  <span className="text-xs font-bold uppercase tracking-wider text-slate-400 text-center h-4 flex items-center justify-center">
+                    {etiquetaColumna1}
+                  </span>
+                  <div 
+                    onClick={() => setImagenAmpliada(rutaBN)}
+                    className="aspect-[3/4] w-full bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-inner flex items-center justify-center cursor-zoom-in group relative"
+                  >
+                    <img src={rutaBN} alt={etiquetaColumna1} onError={handleImageError} className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:opacity-80" />
+                    <span className="absolute bottom-2 right-2 bg-black/75 text-white text-[10px] font-bold px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">🔍 Ampliar</span>
+                  </div>
                 </div>
-              </div>
 
-              {/* Columna 2 Dinámica */}
-              <div className="flex flex-col items-center space-y-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400 text-center h-4 flex items-center justify-center">
-                  {etiquetaColumna2}
-                </span>
-                <div 
-                  onClick={() => setImagenAmpliada(rutaColor)}
-                  className="aspect-[3/4] w-full bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-inner flex items-center justify-center cursor-zoom-in group relative"
-                >
-                  <img src={rutaColor} alt={etiquetaColumna2} onError={handleImageError} className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:opacity-80" />
-                  <span className="absolute bottom-2 right-2 bg-black/75 text-white text-[10px] font-bold px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">🔍 Ampliar</span>
+                {/* Columna 2: Portada Digital Color (Se autodestruye si el capítulo no la tiene) */}
+                {mostrarColumnaColor && (
+                  <div className="flex flex-col items-center space-y-2">
+                    <span className="text-xs font-bold uppercase tracking-wider text-slate-400 text-center h-4 flex items-center justify-center">
+                      {etiquetaColumna2}
+                    </span>
+                    <div 
+                      onClick={() => setImagenAmpliada(rutaColor)}
+                      className="aspect-[3/4] w-full bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-inner flex items-center justify-center cursor-zoom-in group relative"
+                    >
+                      <img 
+                        src={rutaColor} 
+                        alt={etiquetaColumna2} 
+                        onError={() => {
+                          // 🔥 AQUÍ ESTÁ EL TRUCO: Si la imagen no existe en tu carpeta public,
+                          // en lugar de mostrar el fondo gris de error, desactivamos este estado.
+                          setMostrarColumnaColor(false);
+                        }} 
+                        className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:opacity-80" 
+                      />
+                      <span className="absolute bottom-2 right-2 bg-black/75 text-white text-[10px] font-bold px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">🔍 Ampliar</span>
+                    </div>
+                  </div>
+                )}
+
+                {/* Columna 3: Portada del Tomo Físico (Siempre existe) */}
+                <div className="flex flex-col items-center space-y-2">
+                  <span className="text-xs font-bold uppercase tracking-wider text-slate-400 text-center h-4 flex items-center justify-center">
+                    Portada del {resultado.tomo}
+                  </span>
+                  <div 
+                    onClick={() => setImagenAmpliada(rutaTomo)}
+                    className="aspect-[3/4] w-full bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-inner flex items-center justify-center cursor-zoom-in group relative"
+                  >
+                    <img src={rutaTomo} alt="Portada Tomo" onError={handleImageError} className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:opacity-80" />
+                    <span className="absolute bottom-2 right-2 bg-black/75 text-white text-[10px] font-bold px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">🔍 Ampliar</span>
+                  </div>
                 </div>
-              </div>
 
-              {/* Portada del Tomo Físico */}
-              <div className="flex flex-col items-center space-y-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-slate-400 text-center h-4 flex items-center justify-center">
-                  Portada del {resultado.tomo}
-                </span>
-                <div 
-                  onClick={() => setImagenAmpliada(rutaTomo)}
-                  className="aspect-[3/4] w-full bg-slate-950 border border-slate-800 rounded-xl overflow-hidden shadow-inner flex items-center justify-center cursor-zoom-in group relative"
-                >
-                  <img src={rutaTomo} alt="Portada Tomo" onError={handleImageError} className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:opacity-80" />
-                  <span className="absolute bottom-2 right-2 bg-black/75 text-white text-[10px] font-bold px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity">🔍 Ampliar</span>
-                </div>
               </div>
-
-            </div>
 
             {/* 💸 MONETIZACIÓN */}
               <div className="bg-slate-950/60 border border-slate-800 rounded-2xl p-5 text-center max-w-md mx-auto space-y-4">
@@ -261,8 +276,8 @@ export default function App() {
 
       {/* Publicidad */}
       <footer className="mt-8 w-full max-w-2xl text-center">
-        <div className="bg-slate-900/30 border border-dashed border-slate-800 rounded-xl p-3 text-[10px] text-slate-600 font-bold uppercase tracking-widest">
-          Espacio publicitario estratégico (Google AdSense / Ezoic)
+        <div className="bg-slate-900/30 border border-dashed border-slate-800 rounded-xl p-4 min-h-[150px] flex items-center justify-center">
+          <AdsterraBanner />
         </div>
       </footer>
       {/*Contador de vercel analytics*/}
