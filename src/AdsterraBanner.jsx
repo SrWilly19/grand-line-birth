@@ -7,7 +7,7 @@ export default function AdsterraBanner() {
     // Evita duplicar el script si el componente se renderiza dos veces
     if (adRef.current && !adRef.current.firstChild) {
       const script = document.createElement('script');
-      script.src = 'https://pl30258022.effectivecpmnetwork.com/1dd213a978919321776301a7927f5fa5/invoke.js';
+      script.src = '';
       script.async = true;
       script.setAttribute('data-cfasync', 'false');
 
