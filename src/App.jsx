@@ -311,6 +311,18 @@ export default function App() {
         <div className="bg-slate-900/30 border border-dashed border-slate-800 rounded-xl p-4 min-h-[150px] flex items-center justify-center">
           <AdsterraBanner />
         </div>
+
+        {/* Enlace de Política de Privacidad obligado por Google */}
+          <div className="pt-2">
+            <a 
+              href="/privacidad.html" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-slate-500 hover:text-slate-400 text-[11px] underline transition-colors"
+            >
+              {language === 'es' ? 'Política de Privacidad y Cookies' : 'Privacy Policy & Cookies'}
+            </a>
+          </div>
       </footer>
       {/*Contador de vercel analytics*/}
         <Analytics />
