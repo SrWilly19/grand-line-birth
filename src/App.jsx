@@ -310,6 +310,30 @@ export default function App() {
           </div>
         <div className="bg-slate-900/30 border border-dashed border-slate-800 rounded-xl p-4 min-h-[150px] flex items-center justify-center">
           <AdsterraBanner />
+            <a 
+              href="https://www.tiktok.com/@eldependientedecomics" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-slate-900/50 hover:bg-slate-800 border border-slate-800/80 hover:border-slate-700 text-slate-300 text-xs px-3 py-1.5 rounded-lg transition-all font-medium flex items-center gap-1.5"
+            >
+              📱 {language === 'es' ? 'TikTok (OP)' : 'TikTok (OP)'}
+            </a>
+            <a 
+              href="https://www.instagram.com/narutotcg_es?igsh=MWVrYjBtMGxtdnNzbg%3D%3D&utm_source=qr" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-slate-900/50 hover:bg-slate-800 border border-slate-800/80 hover:border-slate-700 text-slate-300 text-xs px-3 py-1.5 rounded-lg transition-all font-medium flex items-center gap-1.5"
+            >
+              🥷 {language === 'es' ? 'Instagram (Naruto)' : 'Instagram (Naruto)'}
+            </a>
+            <a 
+              href="https://www.youtube.com/@eldependientedecomics" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-slate-900/50 hover:bg-slate-800 border border-slate-800/80 hover:border-slate-700 text-slate-300 text-xs px-3 py-1.5 rounded-lg transition-all font-medium flex items-center gap-1.5"
+            >
+              📸 Youtube
+            </a>
         </div>
 
         {/* Enlace de Política de Privacidad obligado por Google */}
