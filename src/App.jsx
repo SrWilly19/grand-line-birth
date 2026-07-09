@@ -308,7 +308,7 @@ export default function App() {
               {language === 'es' ? '☕ ¿Te ha gustado? ¡Invítame a un café!' : '☕ Liked it? Buy me a coffee!'}
             </a>
           </div>
-        <div className="bg-slate-900/30 border border-dashed border-slate-800 rounded-xl p-4 min-h-[150px] flex items-center justify-center">
+        <div className="flex flex-wrap justify-center gap-3 pt-2">
           <AdsterraBanner />
             <a 
               href="https://www.tiktok.com/@eldependientedecomics" 
