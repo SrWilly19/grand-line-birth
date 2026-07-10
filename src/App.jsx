@@ -319,6 +319,14 @@ export default function App() {
               📱 {language === 'es' ? 'TikTok (OP)' : 'TikTok (OP)'}
             </a>
             <a 
+              href="https://www.instagram.com/eldependientedcomics/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-slate-900/50 hover:bg-slate-800 border border-slate-800/80 hover:border-slate-700 text-slate-300 text-xs px-3 py-1.5 rounded-lg transition-all font-medium flex items-center gap-1.5"
+            >
+              📱 {language === 'es' ? 'Instagram (OP)' : 'Instagram (OP)'}
+            </a>
+            <a 
               href="https://www.instagram.com/narutotcg_es?igsh=MWVrYjBtMGxtdnNzbg%3D%3D&utm_source=qr" 
               target="_blank" 
               rel="noopener noreferrer"
